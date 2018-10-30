@@ -4,9 +4,11 @@ function postLogin(login) {
         url: `${baseUrl}/login`,
         data: login,
     }).done(function() {
-        console.log("OKKKKKKK!");
+        console.log('okkkkkkkkkkk');
+        // alertMessage('Okkkk');
     }).fail(function() {
-        alertMessage('Erro no login.');
+        console.log('Erro');
+        // alertMessage('Erro no login.');
     });
 }
 
