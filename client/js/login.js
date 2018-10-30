@@ -4,7 +4,7 @@ function postLogin(login) {
         url: `${baseUrl}/login`,
         data: login,
     }).done(function() {
-        getAllContacts();
+        console.log("OKKKKKKK!");
     }).fail(function() {
         alertMessage('Erro no login.');
     });
