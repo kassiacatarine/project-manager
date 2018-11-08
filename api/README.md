@@ -6,5 +6,5 @@ Restful JSON API using neDB and Node.js.
   ```
     -- npm install --save
     -- npm run dev
-    -- acesse: localhost:3000/
+    -- acesse: localhost:3000/api
   ```
